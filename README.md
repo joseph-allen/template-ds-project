@@ -37,3 +37,67 @@
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 ```
+
+# Project Title
+What is the purpose of this project?
+What version of Python do we use? python -V
+Is there any linting?
+
+## Sample Data
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Installing
+
+A step by step series of examples that tell you have to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+## Running the tests
+
+run pytest :
+
+```
+pytest
+```
+
+or for test watcher :
+
+```
+ptw
+```
+
+generate HTML test coverage
+```
+pytest --cov --cov-report=html
+```
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Benchmark
+
+Sample Size: 10000
+RMSE: 1.4967313914
+
+## Notes
+Any dev notes
+
+## Common Issues
+- check blah blah
