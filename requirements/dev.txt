@@ -1,0 +1,4 @@
+-r common.txt
+pytest==3.2.2
+pytest-cov==2.5.1
+pytest-watch==4.1.0

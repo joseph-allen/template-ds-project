@@ -17,8 +17,10 @@
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt   <- The requirements folder
+|   |── common.txt     <- shared pip packages, pip freeze > requirements/common.txt
+│   │── dev.txt        <- dev only packages, pip freeze > requirements/dev.txt
+|   └── prod.txt       <- prod only packages, pip freeze > requirements/prod.txt
 │
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
