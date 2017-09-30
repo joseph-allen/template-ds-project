@@ -38,6 +38,9 @@
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
+|
+|── install.sh         <- installation scripts
+|-- pre-commit.sh      <- pre-commit hook script
 ```
 
 # Project Title
