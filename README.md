@@ -1,7 +1,7 @@
 # Project Title
 What is the purpose of this project?
-What version of Python do we use? python -V
-Is there any linting?
+Python version : python -V
+Linting : ?
 
 ## Sample Data
 | First Header  | Second Header |
@@ -48,6 +48,8 @@ Is there any linting?
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+running install sets up pre-commit tests
 
 ### Installing
 
