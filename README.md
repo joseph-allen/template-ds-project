@@ -27,22 +27,7 @@ Linting : ?
 │   │── dev.txt        <- dev only packages, pip freeze > requirements/dev.txt
 |   └── prod.txt       <- prod only packages, pip freeze > requirements/prod.txt
 │
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   └── models         <- Scripts to train models and then use trained models to make
-│       │                 predictions
-│       ├── predict_model.py
-│       └── train_model.py
-│   
-│   
-│   
+├── src                <- Source code for use in this 
 ```
 
 ## Getting Started
@@ -53,38 +38,19 @@ running install sets up pre-commit tests
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+Simply run:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+docker build -f Dockerfile.prod -t template-ds-project .       
 ```
 
 ## Running the tests
 
-run pytest :
+run pytest within docker:
 
 ```
-pytest
+docker build -f Dockerfile.test -t template-ds-project .       
 ```
 
-or for test watcher :
-
-```
-ptw
-```
-
-generate HTML test coverage
-```
-pytest --cov --cov-report=html
-```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
